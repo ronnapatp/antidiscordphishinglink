@@ -2,11 +2,10 @@ module.exports = (client) => {
   client.on('messageCreate', async (message) => {
     const msg = message.content.toLowerCase();
 
-    const country = new Intl.DisplayNames(['en'], { type: 'region' });
 
-    const badWords = require('../badWords/badWords');
+    const Link = require('../Link/Link');
 
-    for (const words of badWords) {
+    for (const words of Link) {
       for (let i = 0; i < words.fileContent.length; i++) {
         if (words.fileContent[i].includes(msg)) {
           await message.delete();
@@ -15,9 +14,7 @@ module.exports = (client) => {
           console.log(message.author.username, 'is using a badword');
 
           return await message.channel.send(
-            `Badword removed! ${country.of(
-              words.fileName.toUpperCase()
-            )} badword has been sent from <@${message.author.id}> `
+            `Badword removed! badword has been sent from <@${message.author.id}> `
           );
         }
       }
