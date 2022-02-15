@@ -15,7 +15,7 @@ I fix ... function
 
 ## Add phishing link?
 
-- Place link at [](./Link/en) 
+- Place link at [/link/en](./Link/en) 
 
 ### Rules
 
