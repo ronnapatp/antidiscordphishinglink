@@ -13,7 +13,7 @@ client.on('ready', () => {
   });
   console.log(`Logged in as ${client.user.tag}!\nInvite link : ${link}`);
 
-  client.user.setActivity('that who use badword!', { type: 'WATCHING' });
+  client.user.setActivity('that who sending phishing link!', { type: 'WATCHING' });
 
   const commandFiles = fs
     .readdirSync('./command')
