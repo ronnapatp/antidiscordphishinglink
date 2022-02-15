@@ -3,12 +3,12 @@
 ## Installation
 
 ```bash
-git clone https://github.com/ronnapatp/antibadwordbot.git 
-cd antibadwordbot && npm install
+git clone https://github.com/ronnapatp/antidiscordphishinglink.git 
+cd antidiscordphishinglink && npm install
 ```
 <!-- ```bash
 # If you want update
-git remote set-url origin git@github.com:ronnapatp/antibadwordbot.git
+git remote set-url origin git@github.com:ronnapatp/antidiscordphishinglink.git
 ``` -->
 Use this command for clone and install dependencnies
 
