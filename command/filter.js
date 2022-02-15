@@ -9,12 +9,13 @@ module.exports = (client) => {
       for (let i = 0; i < words.fileContent.length; i++) {
         if (words.fileContent[i].includes(msg)) {
           await message.delete();
-          // You can add action that bot do to people that uing badword ex. message.author.send("Stop use badword")
 
-          console.log(message.author.username, 'is using a badword');
+          console.log(message.author.username, 'is sending a Phishing link');
+
+          // You can replace with ban or kick command
 
           return await message.channel.send(
-            `Badword removed! badword has been sent from <@${message.author.id}> `
+            `Phishing link removed! Phishing link has been sent from <@${message.author.id}> `
           );
         }
       }
