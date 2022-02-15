@@ -32,4 +32,4 @@ Logged in as Bot-name#Tag!
 Invite link : https://discord.com/api/oauth2/authorize?client_id=[Your client id]&scope=bot&permissions=8
 ```
 
-### Enjoy your anti badword bot
+### Enjoy your antidiscordphishinglink bot
